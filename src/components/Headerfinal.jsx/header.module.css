@@ -1,0 +1,11 @@
+.parent {
+  position: relative;
+}
+
+.parent:hover {
+  display: block;
+  background-color: #6abd45;
+  transition: 0, 5s ease;
+  border-radius: 10px;
+  color: #fffc;
+}

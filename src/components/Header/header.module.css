@@ -1,0 +1,12 @@
+.layout {
+  display: flex;
+  align-items: start;
+  /* justify-content: baseline; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  /* padding: 1.5rem; */
+  /* background-image: url("../../assets/1552466032067_7931969.jpg"); */
+  background-size: cover;
+}
