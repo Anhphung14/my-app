@@ -8,6 +8,7 @@ import HeaderLogin from "./components/Header/HeaderLogin.jsx";
 import HeaderFinal from "./components/Headerfinal.jsx/HeaderFinal";
 import HomePage from "./components/HomePage/HomePage";
 import SearchResult from "./components/Search/searchresult";
+import About from "./components/About/about";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -23,8 +24,9 @@ function App() {
         <Route path="/home" element={<HomePage />} />
         <Route path="/main" element={<MainContainer />} />
         <Route path="/searchRe" element={<SearchResult />} />
+        <Route path="/about" element={<About />} />
 
-        <Route path="/createContainer" element={<CreateContainer />} />
+        <Route path="/" element={<CreateContainer />} />
       </Routes>
     </BrowserRouter>
   );

@@ -30,6 +30,7 @@ const Home = () => {
             <img src={bgHome} alt="" className=" w-full " />
           </div>
         </div>
+        {/* mobile */}
       </div>
     </div>
   );

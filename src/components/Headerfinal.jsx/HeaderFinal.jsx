@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <header>
-      <div className="fixed z-50 w-screen bg-white p-6  px-2">
+      <div className="fixed z-50 top-0 left-0 right-0  bg-white p-6  px-2">
         {/*desktop & tablet*/}
         <div className="hidden md:flex w-full h-full items-center justify-around">
           <div className="flex items-center gap-2">
